@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>notdeathm | Portfolio</title>
+    <meta name="description" content="Personal portfolio and projects of notdeathm.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+    <div class="blob-bg"></div>
+    <div class="blob-bg blob-2"></div>
+    
+    <nav class="navbar">
+        <div class="nav-content">
+            <a href="#" class="logo">notdeathm<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home" class="hero fade-in-up">
+            <div class="hero-content">
+                <span class="badge">Student Developer & VATSIM ATC</span>
+                <h1 class="hero-title">
+                    Hi, I'm <span class="gradient-text">notdeathm</span>.<br>
+                    I build stable systems.
+                </h1>
+                <p class="hero-subtitle">
+                    Full-stack developer based in Tangier, Morocco, focusing on tools at the intersection of aviation and software development.
+                </p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn-primary lg">View My Work</a>
+                    <a href="https://github.com/notdeathm" target="_blank" class="btn-secondary lg">GitHub</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2 class="section-title fade-in-up">Featured Projects</h2>
+            <div class="project-grid">
+                <!-- Project 1 -->
+                <div class="project-card glass fade-in-up delay-1">
+                    <div class="project-content">
+                        <h3>Portfolio</h3>
+                        <p>My Portfolio website</p>
+                        <div class="tech-stack">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JS</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="project-card glass fade-in-up delay-2">
+                    <div class="project-content">
+                        <h3>Automated Workflow Scripts</h3>
+                        <p>Custom scripts and CI/CD pipelines to streamline development and enhance productivity in Linux environments.</p>
+                        <div class="tech-stack">
+                            <span>Python</span>
+                            <span>Bash</span>
+                            <span>Git Actions</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="about-container glass fade-in-up">
+                <h2 class="section-title">About Me</h2>
+                <p>
+                    I'm a student developer and an active VATSIM ATC controller based in Tangier, Morocco. I specialize in building robust systems and full-stack applications, primarily using Node.js, Electron, Python, and SQLite.
+                </p>
+                <p>
+                    My role as an Air Traffic Controller heavily influences my coding philosophy—I value precision, structure, and stability above all else.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; <span id="year"></span> notdeathm. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
