@@ -1,0 +1,16 @@
+{
+  "name": "notdeath Portfolio",
+  "short_name": "notdeath",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#070709",
+  "theme_color": "#070709",
+  "description": "Portfolio of notdeath - Developer skilled in HTML, CSS, JavaScript, Node.js, REST API, Git, and Python.",
+  "icons": [
+    {
+      "src": "/assets/icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
