@@ -10,7 +10,7 @@
     <a href="https://notdeath.vercel.app"><img src="https://img.shields.io/badge/Deployed_on-Vercel-black?style=for-the-badge&logo=vercel" alt="Vercel" /></a>
   </div>
 
-  <h3 align="center">Aviation-Inspired High-Performance Portfolio</h3>
+  <h3 align="center">Aviation-Inspired High-Performance Portfolio — v4.0</h3>
 
   <p align="center">
     <strong>An immersive, high-performance personal portfolio built with premium aesthetics and zero heavy framework bloat.</strong>
@@ -36,10 +36,13 @@ Built entirely with **Vanilla HTML5, CSS3, and JavaScript**, this application ru
 
 - 🎨 **Premium Aesthetic**: Clean glassmorphism components, grid overlays, and a curated dark palette with warm gold and aviation blue accents.
 - 📡 **Interactive ATC Radar**: A customized SVG vector radar monitor featuring rotation sweep filters, compass degree rings, and flight track data blocks.
-- ✨ **Atmospheric Effects**: Low-overhead HTML5 Canvas floating particles that run in the background without interrupting page rendering.
+- ✨ **Atmospheric Effects**: Low-overhead HTML5 Canvas floating particles and a subtle cursor-following glow that run without interrupting page rendering.
 - 📊 **Dynamic GitHub Stats**: Live profile statistics (Repositories, Followers, Stars, Following) fetched at run-time with shimmering skeleton screens.
 - 📂 **Auto-fetched Projects**: Displays source projects directly from the GitHub API, styled with cursor-tracking gradient illumination.
 - 📬 **AJAX Contact Routing**: Zero-redirect email messaging utilizing FormSubmit AJAX headers and interactive validation cues.
+- 📱 **Responsive Mobile Nav**: Animated hamburger menu with slide-in panel, backdrop overlay, and touch-friendly navigation.
+- ⬆️ **Scroll UX**: Progress bar at the top, back-to-top button, and staggered hero entry animations.
+- ♿ **Accessibility**: `prefers-reduced-motion` support, `aria-label` on interactive elements, and keyboard-navigable markup.
 - ⚙️ **PWA Caching**: Integrated PWA support with a customized Service Worker (`sw.js`) that caches files for offline accessibility.
 
 ## 🛠️ Tech Stack
@@ -99,6 +102,6 @@ Distributed under the MIT License. See [`LICENSE`](LICENSE) for more information
 **[Website](https://notdeath.vercel.app)** • **[Twitter](https://twitter.com/notdeath_m)** • **[GitHub](https://github.com/notdeathm)**
 
 <br/>
-<em>Built with assistance from Google Gemini.</em>
+<em>Built with Codebuff.</em>
 
 </div>

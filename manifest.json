@@ -3,9 +3,9 @@
   "short_name": "notdeath",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#070709",
-  "theme_color": "#070709",
-  "description": "Portfolio of notdeath - Developer skilled in HTML, CSS, JavaScript, Node.js, REST API, Git, and Python.",
+  "background_color": "#050508",
+  "theme_color": "#050508",
+  "description": "Portfolio of notdeath — full-stack developer and VATSIM ATC controller. Offline-first desktop tools built from Tangier, Morocco.",
   "icons": [
     {
       "src": "/assets/icon.png",

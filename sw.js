@@ -1,7 +1,7 @@
 // Service Worker with Network-First Strategy
 // This ensures users always get the latest version when online.
 
-const CACHE_NAME = 'notdeath-portfolio-v3.0.0';
+const CACHE_NAME = 'notdeath-portfolio-v6.0.0';
 
 // Files to cache for offline usage (only existing assets)
 const urlsToCache = [
