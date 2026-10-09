@@ -1,107 +1,86 @@
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0c0c0e&height=250&section=header&text=notdeath%20Portfolio&fontSize=70&fontAlign=50&animation=fadeIn&fontAlignY=35&desc=Full%20Stack%20Developer%20%E2%80%A2%20VATSIM%20ATC%20%E2%80%A2%20Systems%20Builder&descAlign=50&descAlignY=55&textColor=d4b572" alt="Portfolio Banner" />
+<p align="center">
+  <img src="assets/readme-banner.svg" alt="notdeath developer portfolio — useful software for web and desktop" width="100%">
+</p>
 
-  <br />
+<h1 align="center">notdeath · Developer Portfolio</h1>
 
-  <div>
-    <a href="https://github.com/notdeathm/notdeath/stargazers"><img src="https://img.shields.io/github/stars/notdeathm/notdeath?style=for-the-badge&color=d4b572&logo=github" alt="Stars" /></a>
-    <a href="https://github.com/notdeathm/notdeath/network/members"><img src="https://img.shields.io/github/forks/notdeathm/notdeath?style=for-the-badge&color=0c0c0e&logo=github" alt="Forks" /></a>
-    <a href="LICENSE"><img src="https://img.shields.io/github/license/notdeathm/notdeath?style=for-the-badge&color=blue" alt="License" /></a>
-    <a href="https://notdeath.vercel.app"><img src="https://img.shields.io/badge/Deployed_on-Vercel-black?style=for-the-badge&logo=vercel" alt="Vercel" /></a>
-  </div>
+<p align="center">
+  <strong>Student developer · Tangier, Morocco</strong><br>
+  A personal home for selected projects, the tools I use, and a simple way to get in touch.
+</p>
 
-  <h3 align="center">Aviation-Inspired High-Performance Portfolio — v4.0</h3>
+<p align="center">
+  <a href="https://notdeathm.is-a.dev/"><strong>Visit the portfolio ↗</strong></a> ·
+  <a href="https://github.com/notdeathm/notdeathm.github.io">Browse the source</a> ·
+  <a href="mailto:notdeath@duck.com">Email me</a>
+</p>
 
-  <p align="center">
-    <strong>An immersive, high-performance personal portfolio built with premium aesthetics and zero heavy framework bloat.</strong>
-    <br />
-    <br />
-    <a href="https://notdeath.vercel.app"><strong>Live Demo</strong></a> ·
-    <a href="#-features"><strong>Features</strong></a> ·
-    <a href="#-tech-stack"><strong>Tech Stack</strong></a>
-  </p>
-</div>
-
----
-
-## ⚡ Overview
-
-A showcase of my projects, skills, and timeline as a developer and simulator enthusiast. The layout draws deep inspiration from aviation radar screens and ATC monitors, combined with a premium dark mode, glassmorphism layers, and warm gold accents.
-
-Built entirely with **Vanilla HTML5, CSS3, and JavaScript**, this application runs with zero framework overhead, delivering instant loading speeds and a 100/100 Lighthouse performance profile.
-
-*(Note: Mentions of the NavData project have been removed from this portfolio as its development has been permanently halted.)*
-
-## ✨ Features
-
-- 🎨 **Premium Aesthetic**: Clean glassmorphism components, grid overlays, and a curated dark palette with warm gold and aviation blue accents.
-- 📡 **Interactive ATC Radar**: A customized SVG vector radar monitor featuring rotation sweep filters, compass degree rings, and flight track data blocks.
-- ✨ **Atmospheric Effects**: Low-overhead HTML5 Canvas floating particles and a subtle cursor-following glow that run without interrupting page rendering.
-- 📊 **Dynamic GitHub Stats**: Live profile statistics (Repositories, Followers, Stars, Following) fetched at run-time with shimmering skeleton screens.
-- 📂 **Auto-fetched Projects**: Displays source projects directly from the GitHub API, styled with cursor-tracking gradient illumination.
-- 📬 **AJAX Contact Routing**: Zero-redirect email messaging utilizing FormSubmit AJAX headers and interactive validation cues.
-- 📱 **Responsive Mobile Nav**: Animated hamburger menu with slide-in panel, backdrop overlay, and touch-friendly navigation.
-- ⬆️ **Scroll UX**: Progress bar at the top, back-to-top button, and staggered hero entry animations.
-- ♿ **Accessibility**: `prefers-reduced-motion` support, `aria-label` on interactive elements, and keyboard-navigable markup.
-- ⚙️ **PWA Caching**: Integrated PWA support with a customized Service Worker (`sw.js`) that caches files for offline accessibility.
-
-## 🛠️ Tech Stack
-
-<div align="center">
-  <table>
-    <tr>
-      <td align="center" width="25%">
-        <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" /><br/>
-        <b>Structure</b>
-      </td>
-      <td align="center" width="25%">
-        <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" /><br/>
-        <b>Styling</b>
-      </td>
-      <td align="center" width="25%">
-        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" /><br/>
-        <b>Logic</b>
-      </td>
-    </tr>
-  </table>
-</div>
-
-- **Fonts:** Space Grotesk (Headings), Inter (Body copy), JetBrains Mono (Technical readouts)
-- **APIs & Services:** FormSubmit (AJAX Form routing), GitHub API, Vercel Serverless CDN
-- **Browser APIs:** HTML5 Canvas API, IntersectionObserver, LocalStorage Caching, Fetch API
-
-## 📸 Screenshots
-
-<details>
-<summary><b>Click to view screenshots</b></summary>
-
-### 🖥️ Desktop
-
-| Desktop View 1 | Desktop View 2 |
-| :---: | :---: |
-| <img src="assets/Desktop/Portfolio-1.png" width="100%" alt="Desktop view 1"> | <img src="assets/Desktop/Portfolio-2.png" width="100%" alt="Desktop view 2"> |
-| <img src="assets/Desktop/Portfolio-3.png" width="100%" alt="Desktop view 3"> | <img src="assets/Desktop/Portfolio-4.png" width="100%" alt="Desktop view 4"> |
-| <img src="assets/Desktop/Portfolio-5.png" width="100%" alt="Desktop view 5"> | |
-
-### 📱 Mobile
-
-| Mobile View 1 | Mobile View 2 |
-| :---: | :---: |
-| <img src="assets/Mobile/Portfolio 1.png" width="100%" alt="Mobile view 1"> | <img src="assets/Mobile/Portfolio 2.png" width="100%" alt="Mobile view 2"> |
-
-</details>
-
-## 📄 License
-
-Distributed under the MIT License. See [`LICENSE`](LICENSE) for more information.
+<p align="center">
+  <img src="https://img.shields.io/badge/site-static-171923?style=flat-square&labelColor=171923&color=6758e8" alt="Static site">
+  <img src="https://img.shields.io/badge/build-no%20build%20step-171923?style=flat-square&labelColor=171923&color=62d2a0" alt="No build step">
+  <img src="https://img.shields.io/badge/license-MIT-171923?style=flat-square&labelColor=171923&color=8f85ff" alt="MIT license">
+</p>
 
 ---
 
-<div align="center">
+## What this is
 
-**[Website](https://notdeath.vercel.app)** • **[Twitter](https://twitter.com/notdeath_m)** • **[GitHub](https://github.com/notdeathm)**
+A dark, responsive, single-page developer portfolio built with semantic **HTML**, modern **CSS**, and plain **JavaScript**. There is no framework, package manager, or build step: the site can be served directly from this repository.
 
-<br/>
-<em>Built with Codebuff.</em>
+## Featured projects
 
-</div>
+### [Status API ↗](https://notdeathm.is-a.dev/statusapi/)
+
+A static status page with automated service checks, uptime history, maintenance notices, and public JSON endpoints. Built with Next.js, TypeScript, and GitHub Actions.
+
+[Source code](https://github.com/notdeathm/statusapi)
+
+### [Portfolio ↗](https://notdeathm.is-a.dev/)
+
+This site: a lightweight place to explore my work and get in touch, built without a front-end framework.
+
+[Source code](https://github.com/notdeathm/notdeathm.github.io)
+
+## Highlights
+
+- **A focused layout:** a simple path through the introduction, selected projects, about, toolkit, and contact.
+- **A floating navigation bar:** stays visible while scrolling and adapts to small screens.
+- **Dark-first styling:** responsive layouts, reduced-motion support, visible keyboard focus, and a skip-to-content link.
+- **Direct contact:** an AJAX contact form with a visible email fallback.
+- **Search and sharing metadata:** canonical URL, social tags, structured data, and a sitemap for the custom domain.
+- **Basic offline support:** a network-first service worker caches the home page, manifest, and icon.
+
+## Run it locally
+
+No dependencies to install. From the repository root, start a static server:
+
+```sh
+python3 -m http.server 8000
+```
+
+Then visit <http://localhost:8000>.
+
+## Repository map
+
+| Path | Purpose |
+| --- | --- |
+| `index.html` | Page content, styles, navigation, and contact-form behavior |
+| `assets/icon.png` | Site and app icon |
+| `assets/readme-banner.svg` | This README’s cover image |
+| `manifest.json` | Installable web app metadata |
+| `sw.js` | Offline app-shell caching |
+| `sitemap.xml` | Search-engine sitemap |
+| `CNAME` | Custom domain: `notdeathm.is-a.dev` |
+| `CHANGELOG.md` | Project history |
+
+## Deployment
+
+GitHub Pages is configured to publish the repository root from `main`. The `CNAME` file points to `notdeathm.is-a.dev`; after a change is merged to `main`, GitHub Pages builds and deploys it automatically.
+
+## External services
+
+The page loads Google Fonts and Google Analytics. The contact form is handled by FormSubmit; a direct `mailto:` link is provided as a fallback.
+
+## License
+
+MIT — see [`LICENSE`](LICENSE).

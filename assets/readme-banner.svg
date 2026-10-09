@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="370" viewBox="0 0 1200 370" role="img" aria-labelledby="title description">
+  <title id="title">notdeath developer portfolio</title>
+  <desc id="description">A dark portfolio cover introducing notdeath, a student developer in Tangier, Morocco.</desc>
+  <defs>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#b0a5ff"/>
+      <stop offset="1" stop-color="#6758e8"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#191c26"/>
+      <stop offset="1" stop-color="#11131a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="370" rx="28" fill="#0b0d12"/>
+  <path d="M0 290H1200" stroke="#252832" stroke-width="1"/>
+  <rect x="54" y="56" width="5" height="218" rx="3" fill="url(#accent)"/>
+  <text x="82" y="80" fill="#b0a5ff" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" letter-spacing="2.2">DEVELOPER PORTFOLIO · TANGIER, MOROCCO</text>
+  <text x="78" y="177" fill="#f1f0f6" font-family="Arial, Helvetica, sans-serif" font-size="78" font-weight="700" letter-spacing="-5">notdeath<tspan fill="#b0a5ff">.</tspan></text>
+  <text x="82" y="222" fill="#c2c3cf" font-family="Arial, Helvetica, sans-serif" font-size="22">Useful software for web and desktop.</text>
+  <rect x="82" y="247" width="183" height="34" rx="17" fill="#171923" stroke="#343244"/>
+  <text x="103" y="269" fill="#dedaff" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="600">notdeathm.is-a.dev</text>
+
+  <rect x="742" y="48" width="402" height="250" rx="20" fill="url(#panel)" stroke="#2a2d37"/>
+  <text x="774" y="87" fill="#989ba8" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="1.8">WHAT I ENJOY BUILDING</text>
+  <path d="M774 105H1112" stroke="#2a2d37"/>
+
+  <rect x="774" y="126" width="34" height="34" rx="10" fill="#24213a"/>
+  <text x="784" y="148" fill="#b0a5ff" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700">01</text>
+  <text x="825" y="148" fill="#f1f0f6" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="600">Desktop applications</text>
+  <path d="M774 174H1112" stroke="#252832"/>
+
+  <rect x="774" y="190" width="34" height="34" rx="10" fill="#24213a"/>
+  <text x="784" y="212" fill="#b0a5ff" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700">02</text>
+  <text x="825" y="212" fill="#f1f0f6" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="600">APIs and automation</text>
+  <path d="M774 238H1112" stroke="#252832"/>
+
+  <rect x="774" y="253" width="34" height="28" rx="9" fill="#183127"/>
+  <text x="784" y="272" fill="#62d2a0" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700">03</text>
+  <text x="825" y="272" fill="#f1f0f6" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="600">Offline-first tools</text>
+</svg>

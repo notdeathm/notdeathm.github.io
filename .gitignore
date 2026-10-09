@@ -1,0 +1,15 @@
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Local dependencies, build output, and logs
+node_modules/
+dist/
+coverage/
+*.log
+
+# Browser capture artifact
+--full-page

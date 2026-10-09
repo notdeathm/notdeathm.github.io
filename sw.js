@@ -1,76 +1,58 @@
-// Service Worker with Network-First Strategy
-// This ensures users always get the latest version when online.
-
-const CACHE_NAME = 'notdeath-portfolio-v6.0.0';
-
-// Files to cache for offline usage (only existing assets)
-const urlsToCache = [
+const CACHE_PREFIX = 'notdeath-portfolio-';
+const CACHE_NAME = `${CACHE_PREFIX}v9.0.0`;
+const APP_SHELL = [
   '/',
   '/index.html',
   '/manifest.json',
   '/assets/icon.png'
 ];
+const CACHEABLE_PATHS = new Set(APP_SHELL);
 
-// Install event
 self.addEventListener('install', (event) => {
-  console.log('[Service Worker] Installing...');
   event.waitUntil(
     caches.open(CACHE_NAME)
-      .then((cache) => {
-        console.log('[Service Worker] Pre-caching offline assets');
-        return cache.addAll(urlsToCache);
-      })
-      .then(() => self.skipWaiting()) // Force activation
+      .then((cache) => cache.addAll(APP_SHELL))
+      .then(() => self.skipWaiting())
   );
 });
 
-// Activate event - clean up old caches
 self.addEventListener('activate', (event) => {
-  console.log('[Service Worker] Activating...');
   event.waitUntil(
-    caches.keys().then((cacheNames) => {
-      return Promise.all(
-        cacheNames.map((cacheName) => {
-          if (cacheName !== CACHE_NAME) {
-            console.log('[Service Worker] Deleting old cache:', cacheName);
-            return caches.delete(cacheName);
-          }
-        })
-      );
-    }).then(() => self.clients.claim()) // Take control immediately
+    caches.keys()
+      .then((cacheNames) => Promise.all(
+        cacheNames
+          .filter((cacheName) => cacheName.startsWith(CACHE_PREFIX) && cacheName !== CACHE_NAME)
+          .map((cacheName) => caches.delete(cacheName))
+      ))
+      .then(() => self.clients.claim())
   );
 });
 
-// Fetch event - Network First, then Cache
 self.addEventListener('fetch', (event) => {
-  // Skip cross-origin requests
-  if (!event.request.url.startsWith(self.location.origin)) {
+  const request = event.request;
+  const url = new URL(request.url);
+
+  // Leave cross-origin, non-GET, and non-app-shell requests to the browser.
+  if (request.method !== 'GET' || url.origin !== self.location.origin || !CACHEABLE_PATHS.has(url.pathname)) {
     return;
   }
 
   event.respondWith(
-    fetch(event.request)
+    fetch(request)
       .then((response) => {
-        // Network request succeeded
-        // Check if we received a valid response
-        if (!response || response.status !== 200 || response.type !== 'basic') {
-          return response;
-        }
+        if (!response.ok || response.type !== 'basic') return response;
 
-        // Clone the response to put it in the cache
-        const responseToCache = response.clone();
-
-        caches.open(CACHE_NAME)
-          .then((cache) => {
-            cache.put(event.request, responseToCache);
-          });
+        const cacheUpdate = caches.open(CACHE_NAME)
+          .then((cache) => cache.put(request, response.clone()));
+        event.waitUntil(cacheUpdate.catch((error) => {
+          console.warn('[Service Worker] Could not update the app-shell cache:', error);
+        }));
 
         return response;
       })
-      .catch(() => {
-        // Network request failed, try to get it from the cache
-        console.log('[Service Worker] Network failed, serving from cache');
-        return caches.match(event.request);
+      .catch(async () => {
+        const cached = await caches.match(request, { ignoreSearch: true });
+        return cached || Response.error();
       })
   );
 });
