@@ -2,6 +2,21 @@
 
 All notable changes to the "notdeath" portfolio project.
 
+## [4.0.0] - 2026-10-09
+
+### Changed
+- Rebuilt the site as a clean, dark-first developer portfolio with a floating navigation bar that stays visible while scrolling.
+- Curated the featured projects and corrected their live-site and source-code links.
+- Updated the page metadata, web app theme, and sitemap to use `notdeathm.is-a.dev`.
+- Reworked the README and added a matching portfolio cover graphic.
+
+### Added
+- Keyboard-friendly navigation, a skip link, reduced-motion support, and a direct-email fallback for the contact form.
+- A safer, more scoped service-worker cache policy that leaves other apps’ caches alone.
+
+### Removed
+- The radar/ATC interface, outdated page screenshots, and temporary `.well-known` test files.
+
 ## [3.0.0] - 2026-05-28
 
 ### Added
@@ -25,7 +40,7 @@ All notable changes to the "notdeath" portfolio project.
 
 ### Changed
 - **Header:** Replaced typing effect with a static subtitle: "Full Stack Developer • API Specialist".
-- **About Me:** Updated bio to include age (16), location (Morocco), and refined professional description.
+- **About Me:** Updated bio with location and a refined professional description.
 - **Skills:** Removed progress bars for a cleaner, more minimalist look.
 - **Projects:** Removed screenshot images from all project cards to focus on content and typography.
 

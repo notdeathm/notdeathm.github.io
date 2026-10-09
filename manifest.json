@@ -3,13 +3,12 @@
   "short_name": "notdeath",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#050508",
-  "theme_color": "#050508",
-  "description": "Portfolio of notdeath — full-stack developer and VATSIM ATC controller. Offline-first desktop tools built from Tangier, Morocco.",
+  "background_color": "#0b0d12",
+  "theme_color": "#0b0d12",
+  "description": "A student developer portfolio featuring practical web tools, desktop applications, and automation.",
   "icons": [
     {
       "src": "/assets/icon.png",
-      "sizes": "512x512",
       "type": "image/png"
     }
   ]
